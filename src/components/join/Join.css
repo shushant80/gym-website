@@ -1,0 +1,114 @@
+/* Join Section Styling */
+.join-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-j {
+    flex: 1;
+    padding-left: 22%; /* Adds padding from the left */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 992px) {
+    .left-j {
+        padding-left: 10%; /* Reduce padding on medium-sized screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .left-j {
+        padding-left: 5%; /* Further reduce padding on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .left-j {
+        padding-left: 2%; /* Minimal padding on very small screens */
+    }
+}
+
+
+.left-j hr {
+    margin-bottom: 10px;
+    border: none;
+    border-top: 2px solid #ffd000;
+    width: 50px;
+}
+
+.left-j div {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.left-j .stroke-text {
+    font-weight: bold;
+    color: transparent;
+    font-size: larger;
+    -webkit-text-stroke: 1px #ffd000; /* Adds a stroke to the text */
+}
+
+/* Right Join Button */
+.right-j {
+    flex: 1;
+    display: flex;
+    justify-content: flex;
+}
+
+.btn-j {
+    background-color: #ffd000;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-j:hover {
+    background-color: #ffd000;
+}
+
+/* Modal Styling */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+}
