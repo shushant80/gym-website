@@ -27,9 +27,9 @@ export const programsData = [
     <path d="M11.2044 10.8572L7.69352 8.35736C7.25489 8.07112 6.59604 8.14224 6.3048 8.6436C6.01179 9.07209 6.0846 9.71396 6.59782 10.0002L9.37703 12.0004L7.6953 15.6434C7.47509 16.1431 7.6953 16.7155 8.20674 16.9289C8.35236 17 8.49976 17 8.64538 17C9.0112 17 9.37703 16.7867 9.52265 16.4293L11.4974 12.0004C11.7158 11.643 11.5702 11.1417 11.2044 10.8572Z" />
     <path d="M15.3746 7.67116L12.66 7.0347L11.8525 4.63298C11.7064 4.20924 11.2661 3.99652 10.8258 4.13891C10.3856 4.27958 10.1646 4.70503 10.3125 5.12876L11.2661 7.95422C11.3392 8.23728 11.5602 8.44829 11.8525 8.51863L15.0092 9.29576H15.0823C15.5226 9.36609 15.8898 9.08475 15.9628 8.66102C16.1072 8.16523 15.8149 7.7415 15.3746 7.67116Z" /> */}
     </svg>,
-    heading: "Class and Schedule Management",
+    heading: "Attendance Management",
     details:
-      "Create and manage class schedules, allowing members to view available classes and instructors",
+      "A streamlined and efficient attendance management system utilizing QR technology, delivering real-time live tracking of gym members with an impressive 98% accuracy",
   },
   {
     image: <svg width="12" height="16" viewBox="0 0 12 16"  xmlns="http://www.w3.org/2000/svg">
