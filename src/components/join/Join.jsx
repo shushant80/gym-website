@@ -29,7 +29,7 @@ const Join = () => {
                     </div>
                 </div>
                 <div className="right-j">
-                    <button className="btn btn-j" onClick={openModal}>Join Now</button>
+                    <button className="btn btn-j" onClick={openModal}>Contact Us</button>
                 </div>
             </div>
 
@@ -44,6 +44,7 @@ const Join = () => {
                             <p>Name: Quick Solutions Key</p>
                             <p>Email:  info@quicksolutionskey.com</p>
                             <p>Number:  +91-8349444345, +91-9310507070</p>
+                            <p>Address: 98, G/F, Sarai Jullena, New Friends Colony, Delhi-110025</p>
                         </div>
                         {/* <button className="btn btn-j" onClick={closeModal}>Close</button> */}
                     </div>
