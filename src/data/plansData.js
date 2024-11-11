@@ -11,7 +11,8 @@ export const plansData = [
       </svg>
     ),
     name: "Pro Membership",
-    // price: "Pro Membership",
+    price: "₹999", // Original price
+    offerPrice: "₹707", // Discounted price
     features: [
       "Installation guide",
       "For one month",
@@ -30,7 +31,8 @@ export const plansData = [
       </svg>
     ),
     name: "Ultimate Package",
-    // price: "Ultimate Package",
+    price: "₹3996", // Original price
+    offerPrice: "₹2121", // Discounted price
     features: [
       "1 month free",
       "For three months",
@@ -49,7 +51,8 @@ export const plansData = [
       </svg>
     ),
     name: "Diamond Deal",
-    // price: "Diamond Deal",
+    price: "₹11988", // Original price
+    offerPrice: "₹7070", // Discounted price
     features: [
       "2 month free",
       "For ten months",
