@@ -52,7 +52,7 @@ const HeroSection = () => {
                                 preFix="+" 
                             />
                         </span>
-                        <span>expert coachs</span>
+                        <span>Successful Gyms</span>
                     </div>
                     <div>
                         <span>
@@ -84,7 +84,7 @@ const HeroSection = () => {
             </div>
 
             <div className="right-h">
-                <button className="btn">Join Now</button>
+                <button className="btn">Your Dashboard</button>
                 <motion.div 
                     initial={{ right: "-1rem" }}
                     whileInView={{ right: "4rem" }}
